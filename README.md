@@ -88,6 +88,8 @@ pre_object.found_patterns[:10]
  ([{'e', 'f'}, {'b'}, {'b'}], 2)]
 ```
 
+Please refer to Demonstrate.ipynb for real data example.
+
 Reference
 ---------------------------
 1. Pei, J., Han, J., Mortazavi-Asl, B., Pinto, H., Chen, Q., Dayal, U., & Hsu, M. (2001). PrefixSpan,: mining sequential patterns efficiently by prefix-projected pattern growth. Proceedings 17th International Conference on Data Engineering, 215-224.
