@@ -1,5 +1,5 @@
 <h1>MultiPrefixspan</h1>
-Implement prefixspan algorithm for a sequence with multiple-item events, also with single0-item event
+Implement prefixspan algorithm for a sequence with multiple-item events, also with single0-item event.
 
 Prefixspan
 ---------------------------
