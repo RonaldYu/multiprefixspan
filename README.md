@@ -91,3 +91,4 @@ pre_object.found_patterns[:10]
 Reference
 ---------------------------
 1. Pei, J., Han, J., Mortazavi-Asl, B., Pinto, H., Chen, Q., Dayal, U., & Hsu, M. (2001). PrefixSpan,: mining sequential patterns efficiently by prefix-projected pattern growth. Proceedings 17th International Conference on Data Engineering, 215-224.
+2. Real data BMS1_spmf.txt from http://www.philippe-fournier-viger.com/spmf/index.php?link=datasets.php; BMSWebView1 (Gazelle) ( KDD CUP 2000). This dataset contains 59,601 sequences of clickstream data from an e-commerce. It contains 497 distinct items. The average length of sequences is 2.42 items with a standard deviation of 3.22. In this dataset, there are some long sequences. For example, 318 sequences contains more than 20 items.
