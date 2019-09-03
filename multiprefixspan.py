@@ -52,6 +52,10 @@ class prefixspan_one_item_one_event:
     def exect(self):
         self.prefixspan([], self.sdb, self.min_support)
         
+        
+
+
+
 # prefixspan algorithm for multiple items in one event
         
 class prefixspan_multiple_items_one_event:
@@ -72,17 +76,17 @@ class prefixspan_multiple_items_one_event:
     
     def find_combinations(self, x):
           
-        result_list = []
+        #result_list = []
         add_x = x.intersection({'_'})
         x = x.difference({'_'})
         
-        for i in range(1, len(x)+1):
-            
-            xx = itertools.combinations(x, i)
-            xx = list(map(lambda ii: str(set(ii).union(add_x)), xx))
-            result_list.extend(xx)
+        return list(map(lambda ii: str(set({ii}).union(add_x)), x))
         
-        return result_list   
+        #xx = itertools.combinations(x, 1)
+        #xx = list(map(lambda ii: str(set(ii).union(add_x)), xx))
+        #result_list.extend(xx)
+        
+        #return result_list   
         
         
     def find_items_from_one_sequence(self, x):
