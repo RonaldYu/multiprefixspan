@@ -1,7 +1,7 @@
 import setuptools
     
 setuptools.setup(name='multiprefixspan',
-  version= '0.0.1',
+  version= '0.0.2',
   description='Implementation of Prefixspan for multiple items',
   author='Cheng-Yuan Yu',
   author_email='yu8861213@hotmail.com',
